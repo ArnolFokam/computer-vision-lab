@@ -3,7 +3,10 @@ title: A Simple Framework for Contrastive Learning of Visual Representations
 authors: Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey Hinton
 year: 2020
 ---
+[link to paper](https://arxiv.org/abs/2002.05709)
+
 ## TLDR;
+The paper proposes a simple method of doing contrastive self-supervised learning that relies on training a model to give high similiraty score to augmentations of the same image and low similiraty score to augementation from different images.
 
 ## Problem Indentified
 - Learning useful representations without human supervision is a long-standing problem
@@ -37,11 +40,11 @@ year: 2020
 	- Batch size, training time and the size of the network (the bigger, the better)
 
 ## Limitations
-- 
+- This frameworks is suitable when you have enough compute ressources to hold large batch sizes and train large models for a long period of time.
 
 ## Improvements (sort of)
-- The framework works only large one positive pair. Can we upgrade the model to use more than one positive with respect to the anchor image?
+- The framework works only for one positive pair. Can we upgrade the model to use more than one positive with respect to the anchor image?
 
 ## Cross-Reference
-- 
+- This paper is a the precursor of the follow-up paper [[@chenBigSelfSupervisedModels2020]]
 
