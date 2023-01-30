@@ -3,7 +3,8 @@ title: A Simple Framework for Contrastive Learning of Visual Representations
 authors: Ting Chen, Simon Kornblith, Mohammad Norouzi, Geoffrey Hinton
 year: 2020
 ---
-[link to paper](https://arxiv.org/abs/2002.05709)
+
+#representation-learning #contrastive-learning #self-supervised-learning
 
 ## TLDR;
 The paper proposes a simple method of doing contrastive self-supervised learning that relies on training a model to give high similiraty score to augmentations of the same image and low similiraty score to augementation from different images.
