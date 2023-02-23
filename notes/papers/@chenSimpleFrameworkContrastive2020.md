@@ -48,4 +48,5 @@ The paper proposes a simple method of doing contrastive self-supervised learning
 
 ## Cross-Reference
 - This paper is a the precursor of the follow-up paper [[@chenBigSelfSupervisedModels2020]]
+- - Shows as [[@grillBootstrapYourOwn2020]] that the augmentation chosen significantly impacts the performance of the pre-trained model.
 
