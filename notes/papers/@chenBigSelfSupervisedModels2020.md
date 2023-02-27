@@ -7,7 +7,6 @@ year: 2020
 #representation-learning #contrastive-learning  #semi-supervised-learning
 
 ## TLDR;
-
 The paper propose an emperically study of the inlfuence of bigger/deeper model on semi-supervised learning while proposing a framewark to leverage unlabelled data during the fine-tuning stage for extra performance boost compared to just using the pre-trained SSL model.
 
 ## Problem Indentified
