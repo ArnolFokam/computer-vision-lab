@@ -7,7 +7,7 @@ year: 2021
 #representation-learning #contrastive-learning #data-augmentation #self-supervised-learning 
 
 ## TLDR;
-This paper proposes a new self-supervised learning training paradigm that leverages heavy data augmentation in a novel to prevent collapse in non-contrastive SSL objectives and improve perfromance. This paradigm maximises mutual infromation between heavily augmented views and thier source while still maximizing the MI between the lightly augmented views.
+This paper proposes a new self-supervised learning training paradigm that leverages heavy data augmentation in a novel way to prevent collapse in non-contrastive SSL objectives and improve perfromance. This paradigm maximises mutual infromation between heavily augmented views and thier source while still maximizing the MI between the lightly augmented views.
 
 ## Problem Indentified
 - Self-Supervised Learning is great!
