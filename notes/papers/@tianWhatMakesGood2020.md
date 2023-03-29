@@ -4,6 +4,8 @@ authors: Yonglong Tian, Chen Sun, Ben Poole, Dilip Krishnan, Cordelia Schmid, Ph
 year: 2020
 ---
 
+#representation-learning #self-supervised-learning #semi-supervised-learning 
+
 ## TLDR;
 The paper hypothesis that we don't want to maximize the MI between views only as this may add irrelevant information of downstream tasks. Instead, it says we want to have a sweet spot in MI and to perform this devise new semi-supervised objective that use an adversarial augmentor to regulate the amount of MI that should be shared between views.
 

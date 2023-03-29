@@ -10,8 +10,8 @@ This paper proposes negative sampling strategy that condition the selection of a
 ## Problem Indentified
 - Contrastive self-supervised learning extensively depends on negative samples
 - Besides random sampling, some techniques hard negative mining
-- However, it is not clear if these methods the MI related to the infoNCE objective function
-- Additionally, the paper claims that we do not if this approach is beneficial to the downstream tasks.
+- It is better to have to have low-variance objective function estimator (ease of finding a better local optima)
+	- low-variance by choosing less negatives
 
 ## Solution proposed 
 - The paper proposes a new sampling strategy the conditional the sampling of negatives based on their similarity with the positive example.
@@ -30,12 +30,16 @@ This paper proposes negative sampling strategy that condition the selection of a
 ## Findings
 - The paper proofs that that family of distribution that still preserves the bound are those that takes a subset of all the negatives and are closer to the positive.
 - In the overall, this method is very beneficial to transfer accuracy
+- Very similar to semi-hard negative mining strategy
 
 ## Limitations
 - Discards the other negative samples discards information that could be used during training
+- Claims that low-variance objective may lead to better optima  but what if we have low-variance in the negatives but which are unformative
+	- To solve this, the paper proposes a hyper-parmeter to identify the suitable sampling region
 
 ## Improvements (sort of)
 - What about weighting the instance instead of discarding them
+- What about replacing the hyper-parameters with computation that identify a suitable sampling region for the negatives.
 
 ## Cross-Reference
 - 
